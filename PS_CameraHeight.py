@@ -2,6 +2,7 @@
 """
 Created on Thu May 10 14:00:47 2018
 @author: luiz fernando dos santos
+         lfsantos.geo@usp.br
 
 This script produces a CSV file listing the source and estimated heights
 for each camera in active chunk. By changing the code th horizontal coordinates
