@@ -53,7 +53,7 @@ for camera in chunk.cameras:
 lists = [labels, e_hlist, s_hlist]
 
 # creates the csv file based on the camera list
-with open("F:\XUBUNTU\SHARED_FOLDER\Batch2\Camera_Height.csv", "w",
+with open(path_cam, "w",
           newline="") as myfile:
     myfile.write("List of ALIGNED CAMERAS with the respective Z values\r\n")
     myfile.write("\n")
