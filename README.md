@@ -1,8 +1,8 @@
-# Agisoft-PhotoScan-Pro
-Python Codes to use with Agisoft PhotoScan Pro processing workflow of aerial photogrammetry.
+# Agisoft-Metashape-Pro
+Python Codes to use with Agisoft Metashape Pro processing workflow of aerial photogrammetry.
 
 # Usage
-Agisoft PhotoScan Pro<br>
+Agisoft Metashape Pro<br>
 Enable rich Python console on Tools > Preferences... > Advanced<br>
 Run script (Ctrl+R)<br>
     Some will run immediately while others might generate a menu of options to choose from<br>
