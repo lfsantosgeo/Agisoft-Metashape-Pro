@@ -4,10 +4,11 @@ Created on Tue Feb  5 10:56:19 2019
 
 @author: Luiz Fernando dos Santos
 
-PhotoScan Pro Version 1.4.2
+Tested on PhotoScan Pro Version 1.4.2
+(should work on newer versions > 1.5)
 """
 
-import PhotoScan as PS
+import Metashape as PS
 
 app = PS.app
 doc = app.document  # current document project in PS
@@ -23,7 +24,7 @@ else:
 calib = PS.Calibration()
 
 path_lens = PS.app.getOpenFileName("Add your Agisoft"
-                                   " PhotoScan Lens"
+                                   " Metashape Lens"
                                    " Calibration file:", "*.xml;*.XML")
 print("LENS CALIBRATION FILE:\n", path_lens)
 try:
