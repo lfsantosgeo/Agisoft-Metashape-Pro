@@ -11,19 +11,19 @@ can be assessed (X, Y).
 """
 
 # import the necessary modules to work with Python
-import PhotoScan as PS                # Agisoft PhotoScan module
+import Metashape as PS                # Agisoft Metashape module
 
 # Identify Agisoft PhotoScan version
 ps_version = PS.app.version
 print("Camera Height Script")
 print("---------------------------------------------------------------------\n"
-      "Running on Agisoft PhotoScan {}".format(ps_version))
+      "Running on Agisoft Metashape {}".format(ps_version))
 
 # Checking compatibility
 compatible_major_version = "1.4"
 found_major_version = ".".join(PS.app.version.split('.')[:2])
 if found_major_version != compatible_major_version:
-    raise Exception("Incompatible PhotoScan version: {}"
+    raise Exception("Incompatible Metashape version: {}"
                     " != {}".format(found_major_version,
                                     compatible_major_version))
 print("Compatible version of script!\n"
